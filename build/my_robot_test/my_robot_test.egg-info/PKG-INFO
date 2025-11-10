@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: my-robot-test
+Version: 0.0.0
+Summary: Pacote ROS2 para testes com Pure Pursuit e Follow-the-Gap
+Maintainer: camila
+Maintainer-email: camilachagascarvalho888@gmail.com
+License: TODO: License declaration
+Provides-Extra: test

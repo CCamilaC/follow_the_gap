@@ -1,0 +1,25 @@
+[3.938s] Invoking command in '/home/camila/ros2_ws/src/my_robot_test': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_robot_test build --build-base /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build install --record /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/install.log --single-version-externally-managed install_data
+[5.538s] running egg_info
+[5.659s] writing build/my_robot_test/my_robot_test.egg-info/PKG-INFO
+[5.661s] writing dependency_links to build/my_robot_test/my_robot_test.egg-info/dependency_links.txt
+[5.662s] writing entry points to build/my_robot_test/my_robot_test.egg-info/entry_points.txt
+[5.667s] writing requirements to build/my_robot_test/my_robot_test.egg-info/requires.txt
+[5.668s] writing top-level names to build/my_robot_test/my_robot_test.egg-info/top_level.txt
+[5.949s] reading manifest file 'build/my_robot_test/my_robot_test.egg-info/SOURCES.txt'
+[5.953s] writing manifest file 'build/my_robot_test/my_robot_test.egg-info/SOURCES.txt'
+[5.954s] running build
+[5.955s] running build_py
+[5.957s] running install
+[5.987s] running install_lib
+[6.099s] running install_data
+[6.099s] running install_egg_info
+[6.218s] removing '/home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test-0.0.0-py3.12.egg-info' (and everything under it)
+[6.219s] Copying build/my_robot_test/my_robot_test.egg-info to /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test-0.0.0-py3.12.egg-info
+[6.226s] running install_scripts
+[6.901s] Installing follow_the_gap script to /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/my_robot_test
+[6.902s] Installing gap_finder_2 script to /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/my_robot_test
+[6.902s] Installing pure_pursuit script to /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/my_robot_test
+[6.903s] Installing scan_filter_180 script to /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/my_robot_test
+[6.905s] Installing test_follow_the_gap script to /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/my_robot_test
+[6.906s] writing list of installed files to '/home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/install.log'
+[7.055s] Invoked command in '/home/camila/ros2_ws/src/my_robot_test' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_robot_test build --build-base /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build install --record /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/install.log --single-version-externally-managed install_data

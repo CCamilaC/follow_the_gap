@@ -1,0 +1,6 @@
+[console_scripts]
+follow_the_gap = my_robot_test.follow_the_gap:main
+gap_finder_2 = my_robot_test.gap_finder_2:main
+pure_pursuit = my_robot_test.pure_pursuit:main
+scan_filter_180 = my_robot_test.scan_filter_180:main
+test_follow_the_gap = my_robot_test.test_follow_the_gap:main

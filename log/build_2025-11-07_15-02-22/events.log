@@ -1,0 +1,153 @@
+[0.000000] (-) TimerEvent: {}
+[0.001181] (my_robot_test) JobQueued: {'identifier': 'my_robot_test', 'dependencies': OrderedDict()}
+[0.004874] (my_robot_test) JobStarted: {'identifier': 'my_robot_test'}
+[0.099599] (-) TimerEvent: {}
+[0.200620] (-) TimerEvent: {}
+[0.301250] (-) TimerEvent: {}
+[0.402412] (-) TimerEvent: {}
+[0.505353] (-) TimerEvent: {}
+[0.606792] (-) TimerEvent: {}
+[0.708171] (-) TimerEvent: {}
+[0.809531] (-) TimerEvent: {}
+[0.911404] (-) TimerEvent: {}
+[1.012216] (-) TimerEvent: {}
+[1.113382] (-) TimerEvent: {}
+[1.214129] (-) TimerEvent: {}
+[1.314572] (-) TimerEvent: {}
+[1.415994] (-) TimerEvent: {}
+[1.517045] (-) TimerEvent: {}
+[1.618252] (-) TimerEvent: {}
+[1.719417] (-) TimerEvent: {}
+[1.820047] (-) TimerEvent: {}
+[1.921364] (-) TimerEvent: {}
+[2.022726] (-) TimerEvent: {}
+[2.123892] (-) TimerEvent: {}
+[2.225077] (-) TimerEvent: {}
+[2.325590] (-) TimerEvent: {}
+[2.426643] (-) TimerEvent: {}
+[2.527897] (-) TimerEvent: {}
+[2.630939] (-) TimerEvent: {}
+[2.732288] (-) TimerEvent: {}
+[2.834464] (-) TimerEvent: {}
+[2.935543] (-) TimerEvent: {}
+[3.037152] (-) TimerEvent: {}
+[3.138536] (-) TimerEvent: {}
+[3.239116] (-) TimerEvent: {}
+[3.340092] (-) TimerEvent: {}
+[3.441043] (-) TimerEvent: {}
+[3.542422] (-) TimerEvent: {}
+[3.643020] (-) TimerEvent: {}
+[3.744244] (-) TimerEvent: {}
+[3.844834] (-) TimerEvent: {}
+[3.946485] (-) TimerEvent: {}
+[4.047200] (-) TimerEvent: {}
+[4.148991] (-) TimerEvent: {}
+[4.251926] (-) TimerEvent: {}
+[4.352579] (-) TimerEvent: {}
+[4.457019] (-) TimerEvent: {}
+[4.558755] (-) TimerEvent: {}
+[4.659398] (-) TimerEvent: {}
+[4.760335] (-) TimerEvent: {}
+[4.860842] (-) TimerEvent: {}
+[4.962519] (-) TimerEvent: {}
+[5.064024] (-) TimerEvent: {}
+[5.165825] (-) TimerEvent: {}
+[5.266709] (-) TimerEvent: {}
+[5.367814] (-) TimerEvent: {}
+[5.468793] (-) TimerEvent: {}
+[5.569726] (-) TimerEvent: {}
+[5.670616] (-) TimerEvent: {}
+[5.771557] (-) TimerEvent: {}
+[5.872080] (-) TimerEvent: {}
+[5.972702] (-) TimerEvent: {}
+[6.033577] (my_robot_test) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/my_robot_test', 'build', '--build-base', '/home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build', 'install', '--record', '/home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/camila/ros2_ws/src/my_robot_test', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '66610c31-f5d2-4ec6-9263-a078a78e02f4', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'camila', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/camila', 'OLDPWD': '/home/camila/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2207', 'SYSTEMD_EXEC_PID': '2474', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3377', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/camila/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'camila', 'JOURNAL_STREAM': '9:15128', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'camila', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/camila/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/camila-Inspiron-5590:@/tmp/.ICE-unix/2443,unix/camila-Inspiron-5590:/tmp/.ICE-unix/2443', 'INVOCATION_ID': '283c391d59d44facb9ab0e7b5e3ff1ff', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VN6CF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/camila/ros2_ws/install/my_robot_test:/home/camila/ros2_ws/install/my_robot', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:2c2eab97-3694-4963-9880-bd99b173b37d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/camila/ros2_ws/src/my_robot_test/build/my_robot_test', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/camila/ros2_ws/install/my_robot_test/lib/python3.12/site-packages:/home/camila/ros2_ws/install/my_robot/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[6.072802] (-) TimerEvent: {}
+[6.173870] (-) TimerEvent: {}
+[6.274522] (-) TimerEvent: {}
+[6.375956] (-) TimerEvent: {}
+[6.476407] (-) TimerEvent: {}
+[6.577345] (-) TimerEvent: {}
+[6.678192] (-) TimerEvent: {}
+[6.778701] (-) TimerEvent: {}
+[6.880093] (-) TimerEvent: {}
+[6.981105] (-) TimerEvent: {}
+[7.082078] (-) TimerEvent: {}
+[7.182906] (-) TimerEvent: {}
+[7.283418] (-) TimerEvent: {}
+[7.384271] (-) TimerEvent: {}
+[7.484642] (-) TimerEvent: {}
+[7.584991] (-) TimerEvent: {}
+[7.685855] (-) TimerEvent: {}
+[7.772843] (my_robot_test) StdoutLine: {'line': b'running egg_info\n'}
+[7.774882] (my_robot_test) StdoutLine: {'line': b'creating build/my_robot_test/my_robot_test.egg-info\n'}
+[7.786011] (-) TimerEvent: {}
+[7.886788] (-) TimerEvent: {}
+[7.912580] (my_robot_test) StdoutLine: {'line': b'writing build/my_robot_test/my_robot_test.egg-info/PKG-INFO\n'}
+[7.914244] (my_robot_test) StdoutLine: {'line': b'writing dependency_links to build/my_robot_test/my_robot_test.egg-info/dependency_links.txt\n'}
+[7.916053] (my_robot_test) StdoutLine: {'line': b'writing entry points to build/my_robot_test/my_robot_test.egg-info/entry_points.txt\n'}
+[7.916843] (my_robot_test) StdoutLine: {'line': b'writing requirements to build/my_robot_test/my_robot_test.egg-info/requires.txt\n'}
+[7.917459] (my_robot_test) StdoutLine: {'line': b'writing top-level names to build/my_robot_test/my_robot_test.egg-info/top_level.txt\n'}
+[7.918033] (my_robot_test) StdoutLine: {'line': b"writing manifest file 'build/my_robot_test/my_robot_test.egg-info/SOURCES.txt'\n"}
+[7.986901] (-) TimerEvent: {}
+[8.087477] (-) TimerEvent: {}
+[8.188332] (-) TimerEvent: {}
+[8.198017] (my_robot_test) StdoutLine: {'line': b"reading manifest file 'build/my_robot_test/my_robot_test.egg-info/SOURCES.txt'\n"}
+[8.202064] (my_robot_test) StdoutLine: {'line': b"writing manifest file 'build/my_robot_test/my_robot_test.egg-info/SOURCES.txt'\n"}
+[8.202462] (my_robot_test) StdoutLine: {'line': b'running build\n'}
+[8.202810] (my_robot_test) StdoutLine: {'line': b'running build_py\n'}
+[8.203105] (my_robot_test) StdoutLine: {'line': b'creating /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build\n'}
+[8.203469] (my_robot_test) StdoutLine: {'line': b'creating /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib\n'}
+[8.203754] (my_robot_test) StdoutLine: {'line': b'creating /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test\n'}
+[8.204103] (my_robot_test) StdoutLine: {'line': b'copying my_robot_test/pure_pursuit.py -> /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test\n'}
+[8.204350] (my_robot_test) StdoutLine: {'line': b'copying my_robot_test/__init__.py -> /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test\n'}
+[8.204687] (my_robot_test) StdoutLine: {'line': b'copying my_robot_test/follow_the_gap.py -> /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test\n'}
+[8.204977] (my_robot_test) StdoutLine: {'line': b'copying my_robot_test/test_follow_the_gap.py -> /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test\n'}
+[8.205492] (my_robot_test) StdoutLine: {'line': b'copying my_robot_test/gap_finder_2.py -> /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test\n'}
+[8.206250] (my_robot_test) StdoutLine: {'line': b'copying my_robot_test/scan_filter_180.py -> /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test\n'}
+[8.206786] (my_robot_test) StdoutLine: {'line': b'running install\n'}
+[8.242890] (my_robot_test) StdoutLine: {'line': b'running install_lib\n'}
+[8.288487] (-) TimerEvent: {}
+[8.378949] (my_robot_test) StdoutLine: {'line': b'creating /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test\n'}
+[8.380579] (my_robot_test) StdoutLine: {'line': b'copying /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test/pure_pursuit.py -> /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test\n'}
+[8.381295] (my_robot_test) StdoutLine: {'line': b'copying /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test/__init__.py -> /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test\n'}
+[8.382325] (my_robot_test) StdoutLine: {'line': b'copying /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test/follow_the_gap.py -> /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test\n'}
+[8.384054] (my_robot_test) StdoutLine: {'line': b'copying /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test/test_follow_the_gap.py -> /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test\n'}
+[8.384518] (my_robot_test) StdoutLine: {'line': b'copying /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test/gap_finder_2.py -> /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test\n'}
+[8.384855] (my_robot_test) StdoutLine: {'line': b'copying /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test/scan_filter_180.py -> /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test\n'}
+[8.385743] (my_robot_test) StdoutLine: {'line': b'byte-compiling /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test/pure_pursuit.py to pure_pursuit.cpython-312.pyc\n'}
+[8.388899] (-) TimerEvent: {}
+[8.393245] (my_robot_test) StdoutLine: {'line': b'byte-compiling /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test/__init__.py to __init__.cpython-312.pyc\n'}
+[8.395858] (my_robot_test) StdoutLine: {'line': b'byte-compiling /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test/follow_the_gap.py to follow_the_gap.cpython-312.pyc\n'}
+[8.405394] (my_robot_test) StdoutLine: {'line': b'byte-compiling /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test/test_follow_the_gap.py to test_follow_the_gap.cpython-312.pyc\n'}
+[8.418973] (my_robot_test) StdoutLine: {'line': b'byte-compiling /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test/gap_finder_2.py to gap_finder_2.cpython-312.pyc\n'}
+[8.426070] (my_robot_test) StdoutLine: {'line': b'byte-compiling /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test/scan_filter_180.py to scan_filter_180.cpython-312.pyc\n'}
+[8.430850] (my_robot_test) StdoutLine: {'line': b'running install_data\n'}
+[8.431614] (my_robot_test) StdoutLine: {'line': b'creating /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/share/ament_index\n'}
+[8.432638] (my_robot_test) StdoutLine: {'line': b'creating /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/share/ament_index/resource_index\n'}
+[8.433929] (my_robot_test) StdoutLine: {'line': b'creating /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/share/ament_index/resource_index/packages\n'}
+[8.434275] (my_robot_test) StdoutLine: {'line': b'copying resource/my_robot_test -> /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/share/ament_index/resource_index/packages\n'}
+[8.434630] (my_robot_test) StdoutLine: {'line': b'copying package.xml -> /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/share/my_robot_test\n'}
+[8.434906] (my_robot_test) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.489123] (-) TimerEvent: {}
+[8.582401] (my_robot_test) StdoutLine: {'line': b'Copying build/my_robot_test/my_robot_test.egg-info to /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test-0.0.0-py3.12.egg-info\n'}
+[8.587298] (my_robot_test) StdoutLine: {'line': b'running install_scripts\n'}
+[8.589191] (-) TimerEvent: {}
+[8.690550] (-) TimerEvent: {}
+[8.793446] (-) TimerEvent: {}
+[8.894105] (-) TimerEvent: {}
+[8.995197] (-) TimerEvent: {}
+[9.097588] (-) TimerEvent: {}
+[9.198538] (-) TimerEvent: {}
+[9.299826] (-) TimerEvent: {}
+[9.400794] (-) TimerEvent: {}
+[9.427269] (my_robot_test) StdoutLine: {'line': b'Installing follow_the_gap script to /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/my_robot_test\n'}
+[9.428785] (my_robot_test) StdoutLine: {'line': b'Installing gap_finder_2 script to /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/my_robot_test\n'}
+[9.433455] (my_robot_test) StdoutLine: {'line': b'Installing pure_pursuit script to /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/my_robot_test\n'}
+[9.434077] (my_robot_test) StdoutLine: {'line': b'Installing scan_filter_180 script to /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/my_robot_test\n'}
+[9.439367] (my_robot_test) StdoutLine: {'line': b"writing list of installed files to '/home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/install.log'\n"}
+[9.501343] (-) TimerEvent: {}
+[9.604179] (-) TimerEvent: {}
+[9.644642] (my_robot_test) CommandEnded: {'returncode': 0}
+[9.704959] (-) TimerEvent: {}
+[9.714916] (my_robot_test) JobEnded: {'identifier': 'my_robot_test', 'rc': 0}
+[9.717081] (-) EventReactorShutdown: {}

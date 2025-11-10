@@ -1,0 +1,52 @@
+[6.035s] Invoking command in '/home/camila/ros2_ws/src/my_robot_test': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_robot_test build --build-base /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build install --record /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/install.log --single-version-externally-managed install_data
+[7.765s] running egg_info
+[7.767s] creating build/my_robot_test/my_robot_test.egg-info
+[7.905s] writing build/my_robot_test/my_robot_test.egg-info/PKG-INFO
+[7.907s] writing dependency_links to build/my_robot_test/my_robot_test.egg-info/dependency_links.txt
+[7.908s] writing entry points to build/my_robot_test/my_robot_test.egg-info/entry_points.txt
+[7.909s] writing requirements to build/my_robot_test/my_robot_test.egg-info/requires.txt
+[7.909s] writing top-level names to build/my_robot_test/my_robot_test.egg-info/top_level.txt
+[7.910s] writing manifest file 'build/my_robot_test/my_robot_test.egg-info/SOURCES.txt'
+[8.191s] reading manifest file 'build/my_robot_test/my_robot_test.egg-info/SOURCES.txt'
+[8.194s] writing manifest file 'build/my_robot_test/my_robot_test.egg-info/SOURCES.txt'
+[8.194s] running build
+[8.194s] running build_py
+[8.195s] creating /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build
+[8.195s] creating /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib
+[8.195s] creating /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test
+[8.196s] copying my_robot_test/pure_pursuit.py -> /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test
+[8.196s] copying my_robot_test/__init__.py -> /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test
+[8.196s] copying my_robot_test/follow_the_gap.py -> /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test
+[8.197s] copying my_robot_test/test_follow_the_gap.py -> /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test
+[8.198s] copying my_robot_test/gap_finder_2.py -> /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test
+[8.198s] copying my_robot_test/scan_filter_180.py -> /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test
+[8.199s] running install
+[8.235s] running install_lib
+[8.372s] creating /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test
+[8.373s] copying /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test/pure_pursuit.py -> /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test
+[8.373s] copying /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test/__init__.py -> /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test
+[8.375s] copying /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test/follow_the_gap.py -> /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test
+[8.376s] copying /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test/test_follow_the_gap.py -> /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test
+[8.376s] copying /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test/gap_finder_2.py -> /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test
+[8.377s] copying /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build/lib/my_robot_test/scan_filter_180.py -> /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test
+[8.378s] byte-compiling /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test/pure_pursuit.py to pure_pursuit.cpython-312.pyc
+[8.386s] byte-compiling /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test/__init__.py to __init__.cpython-312.pyc
+[8.388s] byte-compiling /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test/follow_the_gap.py to follow_the_gap.cpython-312.pyc
+[8.399s] byte-compiling /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test/test_follow_the_gap.py to test_follow_the_gap.cpython-312.pyc
+[8.411s] byte-compiling /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test/gap_finder_2.py to gap_finder_2.cpython-312.pyc
+[8.418s] byte-compiling /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test/scan_filter_180.py to scan_filter_180.cpython-312.pyc
+[8.423s] running install_data
+[8.423s] creating /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/share/ament_index
+[8.425s] creating /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/share/ament_index/resource_index
+[8.426s] creating /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/share/ament_index/resource_index/packages
+[8.426s] copying resource/my_robot_test -> /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/share/ament_index/resource_index/packages
+[8.426s] copying package.xml -> /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/share/my_robot_test
+[8.427s] running install_egg_info
+[8.574s] Copying build/my_robot_test/my_robot_test.egg-info to /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages/my_robot_test-0.0.0-py3.12.egg-info
+[8.580s] running install_scripts
+[9.419s] Installing follow_the_gap script to /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/my_robot_test
+[9.425s] Installing gap_finder_2 script to /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/my_robot_test
+[9.425s] Installing pure_pursuit script to /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/my_robot_test
+[9.426s] Installing scan_filter_180 script to /home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/my_robot_test
+[9.432s] writing list of installed files to '/home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/install.log'
+[9.637s] Invoked command in '/home/camila/ros2_ws/src/my_robot_test' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/camila/ros2_ws/src/my_robot_test/install/my_robot_test/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_robot_test build --build-base /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/build install --record /home/camila/ros2_ws/src/my_robot_test/build/my_robot_test/install.log --single-version-externally-managed install_data
